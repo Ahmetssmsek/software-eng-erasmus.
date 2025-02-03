@@ -1,0 +1,278 @@
+use BOT2
+
+
+CREATE TABLE WarsawDB2 (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    Title VARCHAR(255),
+    District VARCHAR(255),
+    Price DECIMAL(10, 2),
+    Rooms INT,
+    Area DECIMAL(10, 2),
+    Time_added DATETIME,
+    Link VARCHAR(255)
+);
+
+
+
+
+
+
+CREATE TABLE LodzDB2 (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    Title VARCHAR(255),
+    District VARCHAR(255),
+    Price DECIMAL(10, 2),
+    Rooms INT,
+    Area DECIMAL(10, 2),
+    Time_added DATETIME,
+    Link VARCHAR(255)
+);
+
+
+
+INSERT INTO LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Apartament Ilumino garaż Galeria Łódzka', ' Łódź, Śródmieście',1000,50,10,'1999.09.29', 'https://www.otodom.pl/pl/oferta/super-cena-apartament-ilumino-garaz-galeria-lodzka-ID4kAeh');
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Kawalerka 18m2 1300zl', 'Łódź, Górna ', 1300,50, 18,'2023-05-23', ' https://www.olx.pl/d/oferta/kawalerka-18m2-1300zl-CID3-IDUBpY0.html');
+
+s gorna:
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Wynajmę apartament Łódź, Chojny, ul. Kolumny', 'Łódź, Górna ', 4000,60,3,'2023-05-28', '  https://www.olx.pl/d/oferta/wynajme-apartament-lodz-chojny-ul-kolumny-CID3-IDTJ3yr.html');
+
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES (' Kawalerka Łódź Górna bezpośrednio', 'Łódź, Górna ', 1300,28, 1,'2023-05-27', '   https://www.olx.pl/d/oferta/kawalerka-lodz-gorna-bezposrednio-CID3-IDKMDRN.html');
+
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Wynajem mieszkania - Łódź', 'Łódź, Górna ', 2200,41, 2,'2023-05-21', '  https://www.olx.pl/d/oferta/wynajem-mieszkania-lodz-CID3-IDUneN4.html');
+
+
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Wynajmę mieszkanie Łódź Górna ul. Czytelnicza', 'Łódź, Górna ', 1200,30, 1,'2023-05-20', '  https://www.olx.pl/d/oferta/wynajme-mieszkanie-lodz-gorna-ul-czytelnicza-CID3-IDUIeob.html');
+
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Wynajmę mieszkanie 2 pokoje, 'Łódź, Górna ', 2000,34, 2,'2023-03-23', '  https://www.olx.pl/d/oferta/wynajme-mieszkanie-2-pokoje-CID3-IDUKQZP.html');
+
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Wynajmę apartament z ogromnym tarasem na Rudzkiej/Stawy Stefańskiego', 'Łódź, Górna ', 3500,50, 2,'2023-05-28', ' https://www.olx.pl/d/oferta/wynajme-apartament-z-ogromnym-tarasem-na-rudzkiej-stawy-stefanskiego-CID3-IDJJZAg.html');
+
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Apartament w wysokim standardzie z klimatyzacją', 'Łódź, Górna ', 1900,50, 3,'2023-05-24', '  https://www.olx.pl/d/oferta/trzypokojowe-do-wynajecia-CID3-IDHX7DQ.html');
+
+WİDZEW
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES (' Trzypokojowe do wynajęcia', ' Łódź, Widzew ', 3400,80, 4,'2023-05-27', '  https://www.olx.pl/d/oferta/trzypokojowe-do-wynajecia-CID3-IDHX7DQ.html');
+
+SRODMİESCİE
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Kawalerka- Śródmieście. Tuwima 49', 'Łódź, Śródmieście ', 1200,18, 1,'2023-05-15', '   https://www.olx.pl/d/oferta/kawalerka-srodmiescie-tuwima-49-CID3-IDJzWlB.html');
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('  Łódź centrum Mieszkanie 28m2', ' Łódź, Śródmieście ', 2200,28, 1,'2023-05-10', '   https://www.olx.pl/d/oferta/lodz-centrum-mieszkanie-28m2-CID3-IDUKPIq.html');
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Nowoczesne mieszkanie do wynajęcia Łódź, Pomorska', 'Łódź, Śródmieście', 3000,51, 3,'2023-05-24', '   https://www.olx.pl/d/oferta/nowoczesne-mieszkanie-do-wynajecia-lodz-pomorska-CID3-IDUKQRI.html');
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES (' Przytulna kawalerka z antresolą w centrum Łodzi [Więckowskiego 58]', 'Łódź, Śródmieście', 1200,14, 1,'2023-05-24', 'https://www.olx.pl/d/oferta/przytulna-kawalerka-z-antresola-w-centrum-lodzi-wieckowskiego-58-CID3-IDTZrZw.html');
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES (' Wynajmę bezpośrednio apartament z garażem ul. Mickiewicza', 'Łódź, Śródmieście ',2400,43, 2,'2023-05-27', ' https://www.olx.pl/d/oferta/wynajme-bezposrednio-apartament-z-garazem-ul-mickiewicza-CID3-IDUKSpv.html');
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Mieszkanie 2-pokojowe w apartamentowcu w centrum Łodzi -Gdańska 141 A', 'Łódź, Śródmieście', 2000,34, 2,'2023-05-11', ' https://www.olx.pl/d/oferta/mieszkanie-2-pokojowe-w-apartamentowcu-w-centrum-lodzi-gdanska-141-a-CID3-IDU0JnL.html');
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Mieszkanie Matejki 11 M3 przestronne 2 oddzielne sypialnie', 'Łódź, Śródmieście', 2400,61, 3,'2023-05-28', ' https://www.olx.pl/d/oferta/mieszkanie-matejki-11-m3-przestronne-2-oddzielne-sypialnie-CID3-IDUKTwU.html');
+
+
+POLESİE
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Bezpośrednio - Wynajmę przytulną kawalerkę Legionów 90', 'Łódź, Polesie', 1350,14, 1,'2023-05-28', '  https://www.olx.pl/d/oferta/bezposrednio-wynajme-przytulna-kawalerke-legionow-90-CID3-IDMSAnm.html');
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Przytulne 2-pokojowe mieszkanie z balkonem {Żubrowej 13', 'Łódź, Polesie', 2000,31, 2,'2023-05-28', '  https://www.olx.pl/d/oferta/przytulne-2-pokojowe-mieszkanie-z-balkonem-zubrowej-13-CID3-IDTZhJq.html');
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Apartament/mieszkanie do wynajęcia, 4 pokoje, Złotno, 90 m2', 'Łódź, Polesie', 1250,31, 1,'2023-05-21', '   https://www.olx.pl/d/oferta/apartament-mieszkanie-do-wynajecia-4-pokoje-zlotno-90-m2-CID3-IDOTyuF.html');
+
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Trzypokojowe mieszkanie w zrewitalizowanej kamienicy w centrum', 'Łódź, Polesie', 2600,78, 3,'2023-05-12', ' https://www.olx.pl/d/oferta/trzypokojowe-mieszkanie-w-zrewitalizowanej-kamienicy-w-centrum-CID3-IDUplwE.html');
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Mieszkanie 38 m do wynajęcia Więckowskiego Polesie', ' Łódź, Polesie', 1600,38, 2,'2023-05-22', '  https://www.olx.pl/d/oferta/mieszkanie-do-wynajecia-ul-kopernika-lodz-CID3-IDUKREE.html');
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Mieszkanie Matejki 11 M3 przestronne 2 oddzielne sypialnie', 'Łódź, Śródmieście', 2400,61, 3,'2023-05-28', ' https://www.olx.pl/d/oferta/mieszkanie-38-m-do-wynajecia-wieckowskiego-polesie-CID3-IDUL3tQ.html');
+
+
+BALUTY
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('NOWA KAWALERKA do wynajęcia z miejscem parkingowym w cenie', 'Łódź, Bałuty', 1800,28, 1,'2023-05-15', '  https://www.olx.pl/d/oferta/nowa-kawalerka-do-wynajecia-z-miejscem-parkingowym-w-cenie-CID3-IDTxUKX.html');
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Mieszkanie 38 m ul. Aleksadrowska', 'Łódź, Bałuty', 1800,38, 2,'2023-05-28', '  https://www.olx.pl/d/oferta/mieszkanie-38-m-ul-aleksadrowska-CID3-IDTanvM.html');
+
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Bałuty Tatarakowa 49m2 2pokoje IV piętro', 'Łódź, Bałuty', 1700,49, 2,'2023-04-16', '  https://www.olx.pl/d/oferta/baluty-tatarakowa-49m2-2pokoje-iv-pietro-CID3-IDUuvQy.html');
+
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Wynajmę M3 na Bałutach', 'Łódź, Bałuty', 1800,46, 2,'2023-05-26', 'https://www.olx.pl/d/oferta/wynajme-m3-na-balutach-CID3-IDUtfBg.html');
+
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Wynajmę kawalerkę', 'Łódź, Bałuty', 1400,35, 1,'2023-05-28', ' https://www.olx.pl/d/oferta/mieszkanie-38-m-do-wynajecia-wieckowskiego-polesie-CID3-IDUL3tQ.html');
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Przytulne mieszkanie w zielonej części Teofilowa', 'Łódź, Bałuty', 1650,47, 2,'2023-05-28', '  https://www.otodom.pl/pl/oferta/przytulne-mieszkanie-w-zielonej-czesci-teofilowa-ID4lEY4.html');
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES (' Wynajmę M3 na Bałutach', 'Łódź, Bałuty', 1800,46, 2,'2023-05-24', ' https://www.olx.pl/d/oferta/wynajme-m3-na-balutach-CID3-IDUtfBg.html');
+
+
+
+
+INSERT INTO dbo.LodzDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Wyremontowane mieszkanie 2 pokoje na Teofilowe', 'Łódź, Bałuty', 2000,45, 2,'2023-05-19', '  https://www.olx.pl/d/oferta/wyremontowane-mieszkanie-2-pokoje-na-teofilowe-CID3-IDOLqI0.html');
+
+
+
+
+WARSAW
+WOLA 
+
+INSERT INTO WarsawDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Wynajmę kawalerkę, bezpośrednio', ' Warszawa, Wola',2400,30,1,'2023-05-27', ' https://www.olx.pl/d/oferta/wynajme-kawalerke-bezposrednio-CID3-IDSD8eF.html');
+
+
+
+INSERT INTO WarsawDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Nowe mieszkanie Kasprzaka 29, Bliska Wola Tower, 12 piętro', 'Warszawa, Wola',5500,46,2,'2023.05.16', ' https://www.olx.pl/d/oferta/nowe-mieszkanie-kasprzaka-29-bliska-wola-tower-12-pietro-CID3-IDUL1gM.html');
+
+
+
+
+INSERT INTO WarsawDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Duże, 2 pokoje, 52 m, loggia, parking, Bema, Wola, bez prowizji', ' Warszawa, Wola',3700,52,2,'2023.05.21', ' https://www.olx.pl/d/oferta/duze-2-pokoje-52-m-loggia-parking-bema-wola-bez-prowizji-CID3-IDUD85t.html');
+
+
+
+
+INSERT INTO WarsawDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Kawalerka - Nowe Odolany / komórka + garaż', '  Warszawa, Wola',2600,25,1,'2023.05.25', ' https://www.otodom.pl/pl/oferta/kawalerka-nowe-odolany-komorka-garaz-ID4lEYq.html');
+
+
+
+
+INSERT INTO WarsawDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES (' **2pokojowe Mieszkanie z Garderobą przy Metrze Rondo Daszyńskiego**', 'Warszawa, Wola',3900,36,2,'2023.05.21', ' https://www.olx.pl/d/oferta/2pokojowe-mieszkanie-z-garderoba-przy-metrze-rondo-daszynskiego-CID3-IDUAe5o.html');
+
+
+
+INSERT INTO WarsawDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Wynajmę mieszkanie na Woli (ul.Kasprzaka). 3 pokoje, 2 łazienki.', 'Warszawa, Wola',5900,82,5,'2023.04.27', ' https://www.olx.pl/d/oferta/wynajme-mieszkanie-na-woli-ul-kasprzaka-3-pokoje-2-lazienki-CID3-IDUp9nF.html');
+
+
+
+INSERT INTO WarsawDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('wynajmę mieszkanie 41 m2, Warszawa Wola', ' Łódź, Śródmieście',1000,50,10,'1999.09.29', 'https://www.otodom.pl/pl/oferta/super-cena-apartament-ilumino-garaz-galeria-lodzka-ID4kAeh');
+
+
+
+
+
+INSERT INTO WarsawDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Apartament Ilumino garaż Galeria Łódzka', 'Warszawa, Wola',3000,41,2,'2023.05.02', ' https://www.olx.pl/d/oferta/wynajme-mieszkanie-41-m2-warszawa-wola-CID3-IDUL5We.html');
+
+
+
+
+
+INSERT INTO WarsawDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Mieszkanie 2 pokoje Wola bardzo blisko metra', 'Warszawa, Wola',2500,37,2,'2023.05.17', ' https://www.olx.pl/d/oferta/mieszkanie-2-pokoje-wola-bardzo-blisko-metra-CID3-IDUL6hT.html');
+
+
+
+
+
+INSERT INTO WarsawDB2(Title, District, Price,Rooms,Area,Time_added,Link)
+VALUES ('Kawalerka do wynajęcia, Wola, Jaktorowska', 'Warszawa, Wola',2200,25,1,'2023.05.12', ' https://www.olx.pl/d/oferta/kawalerka-do-wynajecia-wola-jaktorowska-CID3-IDUL66M.html');
+
+
+
+
+adı ndeğşştr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
